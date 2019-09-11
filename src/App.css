@@ -167,9 +167,9 @@ h1 h2 {
   color: #cb881c;
 }
 .logo {
-  display: inline;
-  width: 50%;
-  align-content: ;
+  padding: 10px 0px 0px 0px;
+  float: right;
+  width: 300px;
 }
 
 hr {
@@ -201,4 +201,8 @@ img {
 
 .return-value {
   padding-top: 20px;
+}
+
+.description-header {
+  text-align: center;
 }
