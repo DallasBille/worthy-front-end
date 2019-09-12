@@ -24,6 +24,7 @@ class App extends React.Component {
   };
 
   render() {
+    console.log(this.state.diamondList);
     return (
       <div className="App">
         <div className="nav">

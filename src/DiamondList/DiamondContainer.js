@@ -3,7 +3,7 @@ import DiamondCard from "./DiamondCard";
 export default class DiamondContainer extends Component {
   loadDiamondCards = props => {
     return this.props.diamonds.map(diamond => {
-      return <DiamondCard diamond={diamond} />;
+      return <DiamondCard key={diamond.id} diamond={diamond} />;
     });
   };
 
