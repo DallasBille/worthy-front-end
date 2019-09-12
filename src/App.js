@@ -33,9 +33,7 @@ class App extends React.Component {
             </a>
           </div>
           <div className="logo">
-            <p className="description-header">
-              A Diamond Value Calculation Tool
-            </p>
+            <img className="diamond logo" src="/diamond.png" alt="" />
           </div>
         </div>
         <hr />

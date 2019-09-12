@@ -166,10 +166,9 @@ h1 h2 {
 .next-text:hover {
   color: #cb881c;
 }
-.logo {
-  padding: 10px 0px 0px 0px;
+.diamond-logo {
+  padding: 0px 10px 0px 0px;
   float: right;
-  width: 300px;
 }
 
 hr {
@@ -206,4 +205,7 @@ img {
 .description-header {
   font-size: 20px;
   text-align: center;
+}
+.disclaimer {
+  font-size: 12px;
 }

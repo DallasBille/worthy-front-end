@@ -9,27 +9,7 @@ class DiamondForm extends React.Component {
     message: ""
   };
 
-  seedDataFunction = () => {
-    const carat = [];
-    const color = ["Fancy", "M-Z", "L", "K", "J", "I", "H", "G", "F", "E", "D"];
-    const cut = ["Emerald", "Marquise", "Cushion", "Princess", "Round"];
-    const clarity = [
-      "I3",
-      "I2",
-      "I1",
-      "SI3",
-      "SI2",
-      "SI1",
-      "VS2",
-      "VS1",
-      "VVS2",
-      "VVS1",
-      "IF",
-      "FL"
-    ];
-    const seedObjects = {};
-    for (let i = 0; i <= 300; i++) {}
-  };
+  seedDataFunction = () => {};
 
   newDiamondPostRequest = event => {
     event.preventDefault();
@@ -67,6 +47,10 @@ class DiamondForm extends React.Component {
   render() {
     return (
       <div className="diamond-form">
+        <p className="disclaimer">
+          *Disclaimer: This information does not 100% accurately reflect real
+          diamond prices. For detailed information, go the worthy.com
+        </p>
         <form onSubmit={this.newDiamondPostRequest} action="">
           <label htmlFor="">Carat Weight</label>
           <div>
