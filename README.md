@@ -1,79 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About the Project:
 
-## Available Scripts
+The diamond form is a front and project made in congruence with a backend api, which houses an algorithm that determines the value of a diamond based on user input. A user fills out the form, which get sent to the back end, run through the alogrithm, and the value is returned.
 
-In the project directory, you can run:
+![Imgur](https://i.imgur.com/9oUcLJK.png)
 
-### `npm start`
+## Motivation:
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This was a code challenge that I took a bit too far, because I found it fun and interesting. I like the full stack game, and this was a cool project to get started with Node and Express.js.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Technologies:
 
-### `npm test`
+This is a basic react form with vanilla CSS.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Back End:
 
-### `npm run build`
+I have an Express.js backend that sends an API, consumed by this front end. Clone this so you can test the valuator.
+https://github.com/DallasBille/worthy-back-end
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Set-Up:
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+1. clone to local.
+2. cd into file.
+3. npm install.
+4. npm start.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## To-Do's:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-# Issues
-
-1. Sequelize is giving me an issue when saving a decimal to the database, so I have to save the carat field as a string for a temporary workaround, this mean converting to float when utilizing the pricing engine.
-
-2. I need write a function that creates and returns a new object from my POST request which adds the "sold" value based on the selected fields.
-
-# Things to Keep in Mind
-
-1. Should I base a value of the lowest possible value, middle possible value, or highest possible value?
-2. How indept should I go with these calculations? Should I average out the percent change for each measurement? Or create a system that is more accurate?
+The goal is to get a back end hosted on heroku. So there is work to do on the back end. And some minor design improvements for the front.
